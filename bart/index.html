@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="index.css" type="text/css" />
+</head>
+
+
+<body>
+<div id="head">
+	<div id="header">
+		<div id="nav"><a href="index.html">Home</a>   | <a href="stations.html">All Stations</a> | <a href="trips.html">My Trips</a></div>
+	</div>
+</div>
+
+<div id="main">
+	<p>Welcome to BART, find all solution you need for your transit in bay area.</p>
+	<img src="main.png" >
+	<p id="result"></p>
+
+</div>
+<script type="text/javascript">	httpGet("http://bart.showmeeapp.com/index.php"); 
+</script>
+	<footer class="footer">
+	<div>
+		<p>Copyright 2017. All rights reserved.<br/></p>
+	</div>
+				<div id="contact">
+				<p> Call<br>
+				877-679-7000</p>
+				</div>
+				
+				<div id="Follow">
+				<p> Follow @:<br>
+				<a href="https://www.facebook.com/bartsf/" target="_blank" id="F">Facebook</a>
+				<a href="https://twitter.com/sfbart?lang=en" target="_blank" id="F">Twitter</a></p>
+				</div>
+			<script type="text/javascript">visitCount()</script>
+	
+	</footer>
+
+	
+</body>
+
+</html>
